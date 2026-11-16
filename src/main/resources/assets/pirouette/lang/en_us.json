@@ -1,0 +1,49 @@
+{
+  "category.pirouette": "Pirouette",
+  "key.pirouette.spin": "Spin (full turn)",
+  "key.pirouette.turn": "Quick turn",
+  "key.pirouette.settings": "Open settings",
+
+  "pirouette.config.title": "Pirouette Settings",
+  "pirouette.config.tab.spin": "Spin",
+  "pirouette.config.tab.turn": "Turn",
+  "pirouette.config.tab.general": "General",
+
+  "pirouette.config.angle": "Angle: %s\u00b0",
+  "pirouette.config.duration": "Duration: %s ms",
+  "pirouette.config.curve": "Curve: %s",
+  "pirouette.config.direction": "Direction: %s",
+  "pirouette.config.enabled": "Pirouette: %s",
+  "pirouette.config.repeat": "Key during a spin: %s",
+  "pirouette.config.cancel_on_move": "Cancel on mouse move: %s",
+  "pirouette.config.cooldown": "Cooldown: %s ms",
+  "pirouette.config.test": "Test",
+  "pirouette.config.reset": "Reset tab",
+  "pirouette.config.done": "Done",
+
+  "pirouette.curve.linear": "Linear",
+  "pirouette.curve.sine": "Gentle",
+  "pirouette.curve.cubic": "Smooth",
+  "pirouette.curve.quint": "Snappy",
+  "pirouette.curve.flick": "Flick",
+  "pirouette.curve.overshoot": "Overshoot",
+
+  "pirouette.direction.right": "Right",
+  "pirouette.direction.left": "Left",
+  "pirouette.direction.alternate": "Alternate",
+
+  "pirouette.repeat.ignore": "Ignore",
+  "pirouette.repeat.restart": "Restart",
+  "pirouette.repeat.cancel": "Cancel",
+
+  "pirouette.tooltip.angle": "How far to turn. 360 is one full circle.",
+  "pirouette.tooltip.duration": "How long the turn takes. Shorter is faster.",
+  "pirouette.tooltip.curve": "How the turn speeds up and slows down. Click to change; the preview shows the shape.",
+  "pirouette.tooltip.direction": "Right turns clockwise, left turns counter-clockwise. Alternate flips every time.",
+  "pirouette.tooltip.enabled": "Turns all Pirouette keys on or off.",
+  "pirouette.tooltip.repeat": "What the key does if you press it again while a spin is running.",
+  "pirouette.tooltip.cancel_on_move": "Stops the spin as soon as you move the mouse.",
+  "pirouette.tooltip.cooldown": "Minimum wait after a spin before the next one can start.",
+  "pirouette.tooltip.test": "Closes this screen and plays the current spin in your world.",
+  "pirouette.tooltip.reset": "Puts this tab back to its default values."
+}

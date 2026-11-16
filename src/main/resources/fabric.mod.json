@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "pirouette",
+  "version": "${version}",
+  "name": "Pirouette",
+  "description": "Smooth, fast, fully configurable full-turn spins. Press a key and your camera whips around exactly 360 degrees, as if you swung the mouse a full circle, with perfect accuracy at any sensitivity or DPI.",
+  "authors": [
+    "Kiuox"
+  ],
+  "contact": {
+    "homepage": "https://github.com/iKiuox/Pirouette",
+    "sources": "https://github.com/iKiuox/Pirouette",
+    "issues": "https://github.com/iKiuox/Pirouette/issues"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/pirouette/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.ikiuox.pirouette.PirouetteClient"
+    ],
+    "modmenu": [
+      "io.github.ikiuox.pirouette.gui.PirouetteModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

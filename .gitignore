@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+
+# Fabric Loom
+run/
+remappedSrc/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep the Gradle wrapper in the repo
+!gradle/wrapper/gradle-wrapper.jar
